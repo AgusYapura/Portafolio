@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agustin Yapura — Desarrollador Fullstack Junior</title>
+  <meta name="description" content="Portafolio de Agustin Yapura, desarrollador fullstack junior de Buenos Aires apasionado por la web y la inteligencia artificial." />
+  <meta name="author" content="Agustin Yapura" />
+  <meta property="og:title" content="Agustin Yapura — Desarrollador Fullstack Junior" />
+  <meta property="og:description" content="Portafolio de Agustin Yapura, desarrollador fullstack junior de Buenos Aires." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Halo que sigue al cursor -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="layout">
+      <!-- ─── COLUMNA IZQUIERDA (sticky en desktop) ─── -->
+      <header class="left">
+        <div class="left-top fade-in-up">
+          <!-- Foto: reemplazá el src cuando tengas la imagen -->
+          <div class="photo-wrap">
+          <span class="photo-placeholder"> <img src="img/foto-personal.jpeg" alt="Agustin Yapura" /> </span>
+          </div>
+
+          <h1 class="name">Agustin Yapura</h1>
+          <h2 class="role">Desarrollador Fullstack Junior</h2>
+          <p class="tagline">
+            Construyo experiencias web accesibles y prolijas, con foco en el detalle y
+            pasión por la inteligencia artificial.
+          </p>
+
+          <!-- Navegación lateral con scroll spy -->
+          <nav class="side-nav" aria-label="Secciones">
+            <ul>
+              <li>
+                <a href="#about" class="side-nav-link" data-target="about">
+                  <span class="indicator"></span><span>Sobre mí</span>
+                </a>
+              </li>
+                  <li>
+                <a href="#experience" class="side-nav-link" data-target="experience">
+                  <span class="indicator"></span><span>Experiencia</span>
+                </a>
+              </li>
+              <li>
+                <a href="#skills" class="side-nav-link" data-target="skills">
+                  <span class="indicator"></span><span>Skills</span>
+                </a>
+              </li>
+              <li>
+                <a href="#projects" class="side-nav-link" data-target="projects">
+                  <span class="indicator"></span><span>Proyectos</span>
+                </a>
+              </li>
+              <li>
+                <a href="#courses" class="side-nav-link" data-target="courses">
+                  <span class="indicator"></span><span>Cursos</span>
+                </a>
+              </li>
+          
+            </ul>
+          </nav>
+        </div>
+
+        <div class="left-bottom">
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agusyapura001@gmail.com" target="_blank" class="link-underline">agusyapura001@gmail.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+               <a  href="https://wa.me/5491140562340" target="_blank" class="link-underline">+54 9 11 4056-2340</a>
+            </li>
+            <li>
+              
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+               <a  href="https://www.google.com/maps/place/B1667+Tortuguitas,+Provincia+de+Buenos+Aires/data=!4m2!3m1!1s0x95bc988e12661a07:0xa51def392da2533?sa=X&ved=1t:242&ictx=111" target="_blank" class="link-underline">Tortuguitas, Buenos Aires</a>
+            </li>
+          </ul>
+
+          <ul class="socials" aria-label="Redes">
+            <li>
+              <a href="https://www.instagram.com/agus_yapu" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/AgusYapura" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/agus-yapura-5b203a370/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agusyapura001@gmail.com" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="pdf/CV - Agustin Yapura.pdf" target="_blank" download aria-label="Descargar CV">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- ─── COLUMNA DERECHA (scroll) ─── -->
+      <main class="right">
+
+        <section id="about" class="section">
+          <h3 class="section-eyebrow mobile-only">Sobre mí</h3>
+          <div class="about-text">
+            <p>
+              Hola, soy <strong>Agustin Yapura</strong>, desarrollador fullstack junior de
+              Tortuguitas, Buenos Aires. Estoy cursando el último año de la Tecnicatura en
+              Informática en la escuela <strong>E.E.S.T N.º 7 Roberto Arlt</strong>.
+            </p>
+            <p>
+              Soy responsable, puntual y me mantengo actualizado con herramientas de IA
+              como <strong>ChatGPT, Claude y GitHub Copilot</strong>.
+            </p>
+          </div>
+        </section>
+
+         <section id="experience" class="section">
+          <h3 class="section-eyebrow mobile-only">Experiencia</h3>
+          <ul class="timeline">
+            <li>
+              <a href="https://www.ampacet.com/" target="_blank" rel="noopener noreferrer" class="timeline-card">
+                <span class="timeline-date">2026 — Actualidad</span>
+                <div class="timeline-info">
+                  <h4 class="timeline-title">
+                    Ampacet
+                    <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                  </h4>
+                  <p>Instalacion de programas y software, arreglo de maquinas de imprimir y otras maquinas.</p>
+                  <ul class="tags">
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="skills" class="section">
+          <h3 class="section-eyebrow mobile-only">Skills & Stack</h3>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4><span class="num">01</span> Frontend</h4>
+              <ul class="pills">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                <li>React (en curso)</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4><span class="num">02</span> Backend & DB</h4>
+              <ul class="pills">
+                <li>Python</li><li>PHP (básico)</li><li>MySQL</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4><span class="num">03</span> Herramientas</h4>
+              <ul class="pills">
+                <li>Git</li><li>GitHub</li><li>VS Code</li>
+                <li>ChatGPT</li><li>Claude</li>
+                <li>PowerShell</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4><span class="num">04</span> Soft skills</h4>
+              <ul class="pills">
+                <li>Proactivo</li><li>Trabajo en equipo</li>
+                <li>Adaptabilidad</li><li>Documentación técnica</li>
+                <li>Pensamiento lógico</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <h3 class="section-eyebrow mobile-only">Proyectos</h3>
+          <ul class="projects">
+            <li>
+              <a class="project-card">
+                <div class="thumb"><span aria-hidden></span><img src="img/proyecto-1.png" alt="Agustin Yapura" width="110px" height="90px"/></div>
+                <div class="info">
+                  <h4 class="project-title">
+                    McKing
+                  </h4>
+                  <p>Sistema de gestión de pedidos para un restaurante de comida rápida.
+                    Administración de menús, carrito de compras funcional y persistencia
+                    del historial de transacciones.</p>
+                  <ul class="tags">
+                    <li>JavaScript</li><li>PHP</li><li>MySQL</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://ahorcado-ayl.netlify.app/" class="project-card">
+                <div class="thumb"><span aria-hidden><img src="img/proyecto-2.png" alt="Agustin Yapura" width="110px" height="90px"/></span></div>
+                <div class="info">
+                  <h4 class="project-title">
+                    Ahorcado
+                  </h4>
+                  <p>Juego del ahorcado desarrollado con React, Con una gran categoria de palabras.</p>
+                  <ul class="tags">
+                    <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="project-card">
+                <div class="thumb"><span aria-hidden><img src="img/proyecto-3.png" alt="Agustin Yapura" width="110px" height="90px"/></span></div>
+                <div class="info">
+                  <h4 class="project-title">
+                    Nevula(en progreso)
+                  </h4>
+                  <p> plataforma que centraliza la gestión operativa de equipos de trabajo en empresas
+                    con múltiples empleados y niveles jerárquicos.</p>
+                  <ul class="tags">
+                    <li>Python</li><li>React</li><li>MySQL</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="courses" class="section">
+          <h3 class="section-eyebrow mobile-only">Cursos y formación</h3>
+          <ul class="courses">
+            <li>
+              <a href="https://www.udemy.com/course/react-cero-experto/" target="_blank" rel="noopener noreferrer" class="course-card">
+                <span class="course-date">2025 — Actualidad</span>
+                <div class="course-info">
+                  <h4 class="course-title">
+                    React: De cero a experto (Hooks y MERN)
+                    <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                  </h4>
+                  <p class="course-meta">Udemy · Fernando Herrera</p>
+                  <p>Curso en progreso enfocado en React moderno, hooks, context API y conexión con backend.</p>
+                  <ul class="tags">
+                    <li>React</li><li>Hooks</li><li>MERN</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <footer class="footer">
+          <p>
+            Diseñado y construido por Agustin Yapura.
+          </p>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
